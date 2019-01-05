@@ -7,7 +7,6 @@ function resolve (dir) {
 }
 
 module.exports = {
-  entry: resolve('src/main.js'),
   output: {
     filename: '[name].[hash:6].js',
     path: resolve('dist')

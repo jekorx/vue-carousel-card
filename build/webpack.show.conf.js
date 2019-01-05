@@ -12,7 +12,7 @@ function resolve(dir) {
 
 module.exports = merge(baseWebpackConfig, {
   mode: 'production',
-  entry: resolve('src/main.js'),
+  entry: resolve('src/demo/main.js'),
   output: {
     filename: 'index.min.js',
     path: resolve('dist')
@@ -22,7 +22,7 @@ module.exports = merge(baseWebpackConfig, {
       // 标题
       title: pkgInfo.name,
       // 模版
-      template: resolve('src/index.html')
+      template: resolve('src/demo/index.html')
     }),
     new UglifyJsPlugin({
       sourceMap: false

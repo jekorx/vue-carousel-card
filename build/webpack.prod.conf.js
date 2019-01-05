@@ -10,7 +10,7 @@ function resolve(dir) {
 
 module.exports = merge(baseWebpackConfig, {
   mode: 'production',
-  entry: resolve('src/carousel-card/index.js'),
+  entry: resolve('src/index.js'),
   output: {
     filename: 'vue-carousel-card.min.js',
     path: resolve('lib')

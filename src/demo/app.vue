@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-import { CarouselCard, CarouselCardItem } from './carousel-card'
+import { CarouselCard, CarouselCardItem } from '../index'
 
 export default {
   name: 'App',

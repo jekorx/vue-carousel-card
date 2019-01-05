@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "vue轮播卡片组件（vue carousel card component）",
   "author": "jekorx",
+  "main": "lib/vue-carousel-card.min.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --colors --config build/webpack.dev.conf.js",
     "start": "npm run dev",

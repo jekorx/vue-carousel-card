@@ -1,8 +1,10 @@
 # vue-carousel-card
 > vue轮播卡片组件（vue carousel card component）
 ### 示例
-![mahua](screenshot/pic0.png)
-![mahua](screenshot/pic1.png)
+> [demo展示](https://jekorx.github.io/vue-carousel-card)
+
+![vue-carousel-card](screenshot/pic0.png)
+![vue-carousel-card](screenshot/pic1.png)
 ### 用法
 ```js
 export default {
