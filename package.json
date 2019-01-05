@@ -1,0 +1,24 @@
+{
+  "name": "vue-carousel-card",
+  "version": "0.1.0",
+  "description": "vue 旋转轮播组件\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cvue旋转轮播组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekorx/vue-carousel-card.git"
+  },
+  "keywords": [
+    "vue",
+    "carousel",
+    "banner"
+  ],
+  "author": "jekorx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jekorx/vue-carousel-card/issues"
+  },
+  "homepage": "https://github.com/jekorx/vue-carousel-card#readme"
+}
