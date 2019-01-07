@@ -6,7 +6,23 @@
 ![vue-carousel-card](screenshot/pic0.png)
 ![vue-carousel-card](screenshot/pic1.png)
 ### 用法
+```bash
+# 安装依赖
+yarn add vue-carousel-card
+# or
+npm i vue-carousel-card -S
+```
 ```js
+/* 引入 */
+
+// 全局
+import VueCarouselCard from 'vue-carousel-card'
+Vue.use(VueCarouselCard)
+
+// or
+
+// 按需
+import { CarouselCard, CarouselCardItem } from 'vue-carousel-card'
 export default {
   // 注册组件
   components: { CarouselCard, CarouselCardItem }
