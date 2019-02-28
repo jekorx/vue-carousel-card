@@ -42,7 +42,7 @@ export default () => {
 // nuxt.config.js
 plugins: [
   '@/plugins/vue-carousel-card'
-],
+]
 ```
 ```html
 <!-- 使用组件 -->
