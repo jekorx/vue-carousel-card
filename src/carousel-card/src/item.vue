@@ -18,12 +18,13 @@
     <div
       v-if="$parent.type === 'card'"
       v-show="!active"
-      class="carousel-card-mask" />
-    <slot />
+      class="carousel-card-mask"></div>
+    <slot></slot>
   </div>
 </template>
 <script>
 const CARD_SCALE = 0.83
+
 export default {
   name: 'CarouselCardItem',
   props: {
@@ -104,46 +105,3 @@ export default {
   }
 }
 </script>
-<style>
-.carousel-card-item, .carousel-card-mask {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0
-}
-.carousel-card-item {
-  width: 100%;
-  display: inline-block;
-  overflow: hidden;
-  z-index: 0
-}
-.carousel-card-item.is-active {
-  z-index: 2
-}
-.carousel-card-item.is-animating {
-  transition: transform .4s ease-in-out
-}
-.carousel-card-item-card {
-  width: 50%;
-  transition: transform .4s ease-in-out
-}
-.carousel-card-item-card.is-in-stage {
-  cursor: pointer;
-  z-index: 1
-}
-.carousel-card-item-card.is-active {
-  z-index: 2
-}
-.carousel-card-item-card.is-in-stage.is-hover .carousel-card-mask {
-  opacity: .12
-}
-.carousel-card-item-card.is-in-stage:hover .carousel-card-mask {
-  opacity: .12
-}
-.carousel-card-mask {
-  width: 100%;
-  background-color: #fff;
-  opacity: .24;
-  transition: .2s
-}
-</style>

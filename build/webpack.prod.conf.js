@@ -11,14 +11,24 @@ function resolve(dir) {
 module.exports = merge(baseWebpackConfig, {
   mode: 'production',
   entry: {
-    'vue-carousel-card': resolve('src/index.js')
+    app: [resolve('src/index.js')]
   },
   output: {
     path: resolve('lib'),
-    filename: '[name].js',
-    library: 'VueCarouselCard', // 指定的就是你使用require时的模块名
-    libraryTarget: 'umd', // 指定输出格式
-    umdNamedDefine: true
+    filename: 'vue-carousel-card.js',
+    chunkFilename: '[id].js',
+    libraryExport: 'default',
+    library: 'VueCarouselCard',
+    libraryTarget: 'commonjs2'
+  },
+  performance: {
+    hints: false
+  },
+  stats: {
+    children: false
+  },
+  optimization: {
+    minimize: false
   },
   plugins: [
     new UglifyJsPlugin({

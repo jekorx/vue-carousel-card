@@ -1,6 +1,6 @@
 {
   "name": "vue-carousel-card",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "vue轮播卡片组件（vue carousel card component）",
   "author": "jekorx",
   "main": "lib/vue-carousel-card.js",
