@@ -13,9 +13,9 @@ yarn add vue-carousel-card
 # or
 npm i vue-carousel-card -S
 ```
-> SPA，非SSR  
+> 引入依赖，SPA，非SSR  
 ```javascript
-// 引入，样式需要单独引入
+// 样式需要单独引入
 import { CarouselCard, CarouselCardItem } from 'vue-carousel-card'
 import 'vue-carousel-card/styles/index.css'
 
@@ -24,7 +24,7 @@ export default {
   components: { CarouselCard, CarouselCardItem }
 }
 ```
-> 服务端渲染（SSR）中使用，以Nuxtjs为例  
+> 引入依赖，服务端渲染（SSR）中使用，以Nuxtjs为例  
 ```javascript
 // @/plugins/vue-carousel-card.js
 import Vue from 'vue'
