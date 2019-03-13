@@ -19,8 +19,6 @@ module.exports = merge(baseWebpackConfig, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      // 标题
-      title: pkgInfo.name,
       // 模版
       template: resolve('src/demo/index.html')
     }),
