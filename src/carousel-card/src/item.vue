@@ -2,9 +2,10 @@
   <div
     v-show="ready"
     :style="{
-      msTransform: `translateX(${ translate }px) scale(${ scale })`,
-      webkitTransform: `translateX(${ translate }px) scale(${ scale })`,
-      transform: `translateX(${ translate }px) scale(${ scale })`
+      msTransform: `translateX(${ translate }px) translateY(-50%) scale(${ scale })`,
+      webkitTransform: `translateX(${ translate }px) translateY(-50%) scale(${ scale })`,
+      transform: `translateX(${ translate }px) translateY(-50%) scale(${ scale })`,
+      top: '50%'
     }"
     :class="{
       'is-active': active,

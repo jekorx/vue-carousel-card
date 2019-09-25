@@ -19,7 +19,6 @@ import {
 } from '../index.js'
 import '../../styles/index.css'
 
-
 export default {
   name: 'App',
   components: { CarouselCard, CarouselCardItem }
