@@ -1,5 +1,5 @@
 # vue-carousel-card
-[![npm package](screenshot/version.svg)](https://www.npmjs.com/package/vue-carousel-card)
+[![npm package](https://img.shields.io/npm/v/vue-carousel-card.svg)](https://www.npmjs.com/package/vue-carousel-card)
 > vue轮播卡片组件（vue carousel card component）
 ### 示例
 > [demo展示](https://jekorx.github.io/vue-carousel-card)
