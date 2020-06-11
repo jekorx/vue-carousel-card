@@ -1,4 +1,5 @@
 .carousel-card {
+  overflow-y: hidden;
   overflow-x: hidden;
   position: relative
 }
