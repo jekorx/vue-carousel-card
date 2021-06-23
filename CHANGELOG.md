@@ -1,5 +1,10 @@
 # 更新日志
 
+#### 2.0.0 (2021-6-23)
+
+* new version with vue@3.x
+* vue@2.x版本请使用 [![vue-carousel-card@1.0.7](https://img.shields.io/badge/npm%20vue--canvas--sign-v1.0.7-blue)](https://www.npmjs.com/package/vue-carousel-card/v/1.0.7)，Github v1.x地址 [![github 1.x](https://img.shields.io/badge/github%20vue--canvas--sign-1.x-green)](https://github.com/jekorx/vue-carousel-card/tree/1.x)
+
 #### 1.0.7 (2021-6-9)
 
 * 升级yarn.lock开发依赖，对功能无影响
